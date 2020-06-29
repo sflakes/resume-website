@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+    width: 680px;
+    height: 950px;
+    background-color: yellow;
+    border: 1px solid rgb(74, 159, 199);
+    margin: auto;
+    margin-top: 10px;
+    box-sizing:border-box;
+    display: grid;
+    grid-template-areas: "header header"
+                         "section main"
+                         "aside main"
+                         "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+/*-------------------awal css grid-------------------*/
+header{
+background-color:white;
+grid-area: header;
+
+}
+section{
+    background-color:white;
+    grid-area: section;
+}
+aside{
+    background-color: white;
+    grid-area: aside;
+}
+main{
+    background-color: white;
+    grid-area: main;
+    padding: 40px;
+}
+footer{
+    background-color: white;
+    grid-area: footer;
+}
+/*--------------------akhir css grid--------------------*/
+
+/*------------------awal bagian header----------------------*/
+
+.container-header div{
+    align-content: space-between;
+    box-sizing: border-box;
+}
+.foto img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    float: left;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    justify-content: center;
+    
+}
+.identitas{
+    background-color:  #34b8b3;
+    padding-block: 20px;
+    height: 120px;
+    width: 480px;
+    float: right;
+    color: rgb(247, 242, 242);
+    text-align: justify;
+    margin:5px;
+    border-radius: 5px;
+    
+}
+.jobtitle{
+    border-bottom: 1px solid #a4cfce;
+    font-size: 15px;
+}
+/*------------------akhir bagian header----------------------*/
+
+/*------------------awal bagian section----------------------*/
+section{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 13px;
+    color: white;
+}
+section ul li{
+    background-color: #34b8b3;
+    border-radius: 3px;
+    border-color: #34b8b3;
+}
+/*------------------akhir bagian section----------------------*/
+
+/*-------------------awal bagian aside----------------------*/
+aside{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+aside ul li {
+    list-style: none;
+    background-color: #34b8b3;
+    border-radius: 3px;
+    border-color: #34b8b3;
+    color: white;
+}
+/*------------------akhir bagian aside----------------------*/
+
+/*------------------awal bagian main----------------------*/
+main h2{
+    border-bottom: 1px solid #34b8b3;
+    font-size: 15px;
+}
+main li{
+    font-size: 12px;
+}
+main .jurusan{
+    font-size: 12px;
+}
+/*------------------akhir bagian main----------------------*/
+
+/*------------------awal bagian footer----------------------*/
+footer{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+footer ul li{
+    list-style: none;
+    background-color: #34b8b3;
+    border-radius: 5px;
+    color: white;
+}
+.fa-facebook {
+    background: #34b8b3;
+    color: white;
+}
+.fa-linkedin{
+    background: #34b8b3;
+    color: white;
+}
+.fa-Dribbble{
+    background: #34b8b3;
+    color: white;
+}
+.fa-github{
+    background: #34b8b3;
+    color: white;
+}
+/*------------------akhir bagian footer----------------------*/
+
